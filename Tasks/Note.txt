@@ -1,0 +1,25 @@
+A B O U T
+
+This is a program to practice Spaced Revision Technique
+A schedule is created for spaced revisions once you enter the things you studied through - Add Topic
+Status Update is to update when you complete the scheduled revisions with reviews to how easy or hard it was
+Reviews:
+    - 1 for easy    -> no updates in the schedule
+    - 2 for medium  -> next revision schedules for this topic are made a little closer
+    - 3 for hard    -> schedules made further close
+Shift Schedule is used in case you have something planned in coming days and you wouldn't be able to revise
+In case of missed scheduled revisions, when the app is opened, it automatically shifts all the missed ones to today
+
+I N S T R U C T I O N S
+
+After installing docker, logging in with your account and pulling this repo, do the following:
+1. Start Docker 
+    - Open docker windows(other os) app 
+    - Must be running in the background
+2. Open CMD in the folder where all the pulled code-files are present 
+    - Go to file location, click on the path, enter cmd and press Enter
+3. Enter: docker compose build
+    - THIS IS ONE TIME ONLY
+    - Wait for it to build, it may take some time
+    - Close this CMD after confirmation
+4. Enter ./run-tasks.bat(CMD) or ./run-tasks.sh(Bash)
